@@ -19,9 +19,12 @@ Start `https://localhost:3022/`
 
 - For Chrome add the certificate (in security) to the System key chain.
 
+![Keychain Access](docs/keychain.png)
+
+
 ## Using in a react client with Websocket library
 
-```html
+```jsx
 <Websocket
         ref={refWebSocket}
         url="wss://localhost:3022/"
